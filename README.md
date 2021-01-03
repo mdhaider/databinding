@@ -1,3 +1,6 @@
+# About Project
+Examples for angular databinding using interpolation, property binding, event binding, two way binding.
+
 # Databinding
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
