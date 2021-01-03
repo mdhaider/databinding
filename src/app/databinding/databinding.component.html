@@ -1,0 +1,17 @@
+<!--interpolation-->
+<h1>{{ pageTitle }}</h1>
+
+<!--property binding-->
+<p type="text" [innerText]="pageTitle"></p>
+<h3 [innerHtml]="pageTitle"></h3>
+
+<!--event binding-->
+<button (click)="changeTitle()">Change Title</button>
+<h3 [innerHtml]="newPageTtitle"></h3>
+
+<!--two way databinding 
+    we use ngModel directive, which is available in FormsModule
+-->
+<input type="text" [(ngModel)]="entered"/>
+<h3 [innerHtml]="entered"></h3>
+
